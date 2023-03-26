@@ -1,0 +1,202 @@
+version: "2.0"
+
+rules:
+
+
+- rule: welcome user
+  steps:
+  - intent: welcome
+  - action: utter_welcome
+
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+#
+- rule: respond to flow_control Qn
+  steps:
+  - intent: introduction
+  - action: utter_introduction
+  - action: utter_did_that_help
+
+- rule: respond to flow_control Qn
+  steps:
+  - intent: flow_control
+  - action: utter_flow_control
+  - action: utter_python_facts
+  - action: utter_did_that_help
+
+- rule: file handling
+  steps:
+  - intent: file_handling
+  - action: utter_file_handling
+  - action: utter_did_that_help
+
+- rule: function intro python
+  steps:
+  - intent: function
+  - action: utter_function
+  - action: utter_python_facts
+  - action: utter_did_that_help
+
+
+- rule: datatypes
+  steps:
+  - intent: datatypes
+  - action: utter_datatypes
+  - action: utter_python_facts
+
+- rule: datatypes2
+  steps:
+  - intent: datatypes2
+  - action: utter_datatypes2
+
+- rule: create class object
+  steps:
+  - intent: class
+  - action: utter_class
+  - action: utter_did_that_help
+
+- rule: affirm
+  steps:
+  - intent: affirm
+  - action: utter_happy
+
+
+- rule: deny
+  steps:
+  - intent: deny
+  - action: action_search_stack
+
+#- rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+#  steps:
+#  - intent: nlu_fallback
+#  - action: action_search_stack
+
+- rule: Performance
+  steps:
+  - intent: know_performance
+  - action: action_know_performance
+
+- rule: give_email
+  steps:
+  - intent: give_email
+  - action: action_receive_mail
+
+- rule: give_OTP
+  steps:
+  - intent: OTP
+  - action: action_verify_otp
+
+- rule: subscription
+  steps:
+  - intent: subscribe
+  - action: utter_subscribe
+
+#- rule: handoff intent from other bot's handoff triggers greeting
+#  steps:
+#   - intent: handoff
+#   - action: utter_greet
+
+- rule: subscription
+  steps:
+  - intent: emails_phone
+  - action: action_subscribe
+
+- rule: list quiz
+  steps:
+    - intent: list_quiz
+    - action: utter_list_quiz
+
+#- rule: Activate form
+#  steps:
+#  - intent: request_names
+#  - action: name_form
+#  - active_loop: name_form
+#
+#- rule: Submit form
+#  condition:
+#  - active_loop: name_form
+#  steps:
+#  - action: name_form
+#  - active_loop: null
+#  - slot_was_set:
+#    - requested_slot: null
+#  - action: action_search_stack
+#  - action: utter_slots_values
+- rule: intro page
+  steps:
+    - intent: introduction_page
+    - action: utter_introduction_page
+
+- rule: flow control topics
+  steps:
+    - intent: flow_control_topics
+    - action: utter_flow_control_topics
+
+- rule: function topics
+  steps:
+    - intent: function_topics
+    - action: utter_function_topics
+
+- rule: datatype topics
+  steps:
+    - intent: datatype_topics
+    - action: utter_datatype_topics
+
+- rule: list topics
+  steps:
+    - intent: list_topics
+    - action: utter_list_topics
+
+- rule: tuple topics
+  steps:
+    - intent: tuple_topics
+    - action: utter_tuple_topics
+
+- rule: set topics
+  steps:
+    - intent: set_topics
+    - action: utter_set_topics
+
+- rule: dictionary topics
+  steps:
+    - intent: dictionary_topics
+    - action: utter_dictionary_topics
+
+- rule: file topics
+  steps:
+    - intent: file_topics
+    - action: utter_file_topics
+
+- rule: class topics
+  steps:
+    - intent: class_topics
+    - action: utter_class_topics
+
+- rule: reference books
+  steps:
+    - intent: reference_books
+    - action: utter_reference_books
+
+- rule: Previous Year Questions
+  steps:
+    - intent: Previous_Year_Questions
+    - action: utter_Previous_Year_Questions
+
+
+- rule: updates
+  steps:
+    - intent: updates
+    - action: utter_updates
+
+- rule: python facts
+  steps:
+  - intent: python_facts
+  - action: utter_python_facts

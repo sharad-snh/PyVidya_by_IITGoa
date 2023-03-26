@@ -1,0 +1,215 @@
+version: "2.0"
+
+stories:
+
+
+- story: welcome user
+  steps:
+  - intent: welcome
+  - action: utter_welcome
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+
+- story: create class object
+  steps:
+    - intent: class
+    - action: utter_class
+    - action: utter_did_that_help
+
+- story: what is file handling in python
+  steps:
+  - intent: file_handling
+  - action: utter_file_handling
+  - action: utter_did_that_help
+
+- story: function intro python
+  steps:
+  - intent: function
+  - action: utter_function
+  - action: utter_python_facts
+  - action: utter_did_that_help
+
+
+- story: flow control
+  steps:
+  - intent: flow_control
+  - action: utter_flow_control
+  - action: utter_python_facts
+  - action: utter_did_that_help
+
+- story: datatypes
+  steps:
+  - intent: datatypes
+  - action: utter_datatypes
+  - action: utter_python_facts
+
+- story: datatypes2
+  steps:
+  - intent: datatypes2
+  - action: utter_datatypes2
+
+
+- story: affirm
+  steps:
+  - intent: affirm
+  - action: utter_happy
+
+- story: subscription
+  steps:
+  - intent: subscribe
+  - action: utter_subscribe
+  - intent: emails_phone
+  - action: action_subscribe
+
+- story: track perfomance
+  steps:
+    - intent: know_performance
+    - action: action_know_performance
+
+
+- story: give mail
+  steps:
+    - intent: give_email
+    - action: action_receive_mail
+
+- story: give OTP
+  steps:
+    - intent: OTP
+    - action: action_verify_otp
+
+- story: negative path
+  steps:
+    - intent: deny
+    - action: action_search_stack
+
+- story: list quiz
+  steps:
+    - intent: list_quiz
+    - action: utter_list_quiz
+##intro pages
+- story: intro page
+  steps:
+    - intent: introduction_page
+    - action: utter_introduction_page
+
+- story: flow control topics
+  steps:
+    - intent: flow_control_topics
+    - action: utter_flow_control_topics
+
+- story: function topics
+  steps:
+    - intent: function_topics
+    - action: utter_function_topics
+
+- story: datatype topics
+  steps:
+    - intent: datatype_topics
+    - action: utter_datatype_topics
+
+- story: list topics
+  steps:
+    - intent: list_topics
+    - action: utter_list_topics
+
+- story: tuple topics
+  steps:
+    - intent: tuple_topics
+    - action: utter_tuple_topics
+
+- story: set topics
+  steps:
+    - intent: set_topics
+    - action: utter_set_topics
+
+- story: dictionary topics
+  steps:
+    - intent: dictionary_topics
+    - action: utter_dictionary_topics
+
+- story: file topics
+  steps:
+    - intent: file_topics
+    - action: utter_file_topics
+
+- story: class topics
+  steps:
+    - intent: class_topics
+    - action: utter_class_topics
+
+- story: reference books
+  steps:
+    - intent: reference_books
+    - action: utter_reference_books
+
+- story: Previous Year Questions
+  steps:
+    - intent: Previous_Year_Questions
+    - action: utter_Previous_Year_Questions
+
+
+- story: updates
+  steps:
+    - intent: updates
+    - action: utter_updates
+
+#- story: interactive_story_1
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: request_names
+#  - action: name_form
+#  - active_loop: name_form
+#  - slot_was_set:
+#    - requested_slot: first_question
+#  - slot_was_set:
+#    - first_name: vincent
+#  - slot_was_set:
+#    - requested_slot: null
+#  - active_loop: null
+#  - action: action_search_stack
+#  - action: utter_slots_values
+#
+
+- story: indentation errors
+  steps:
+    - intent: indentation
+    - action: utter_indentation
+
+
+- story: python not recognized errors
+  steps:
+    - intent: python_not_recognized
+    - action: utter_python_not_recognized
+
+- story: indentation errors
+  steps:
+    - intent: setup_failed
+    - action: utter_setup_failed
+
+- story: do yo know
+  steps:
+    - intent: python_facts
+    - action: utter_python_facts
+
+- story: interactive_story_1
+  steps:
+  - intent: know_performance
+  - action: action_know_performance
+  - intent: give_email
+  - action: action_receive_mail
+  - slot_was_set:
+    - mail: sakar2013108@iitgoa.ac.in
+  - intent: OTP
+  - action: action_verify_otp
+
+- story: interactive_story_2
+  steps:
+  - intent: list_quiz
+  - action: utter_list_quiz

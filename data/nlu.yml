@@ -1,0 +1,183 @@
+ version: "2.0"
+nlu:
+- intent: welcome
+  examples: |
+    - hi
+    - hello
+    - start
+    - /start
+- intent: affirm
+  examples: |
+    - yes
+    - sure
+    - go ahead
+    - ok
+- intent: deny
+  examples: |
+    - no
+    - not now
+    - not really
+    - nope
+    - i didnt understand
+    - this is not right
+    - this is not
+    - are you mad
+    - doesnt help
+- intent: happy
+  examples: |
+    - cool
+    - got it
+    - thanks
+- intent: request_names
+  examples: |
+    - i want to give you my name
+    - give name
+    - you need to know my name
+    - do you know my name?
+- intent: subscribe
+  examples: |
+    - subscribe me
+    - newsletter
+    - i want to subscribe
+    - send me daily facts
+    - subscription
+- intent: emails_phone
+  examples: |
+    - abcd@iitgoa.ac.in,9876543210
+    - baba@gmail.com,8907654321
+    - didi@yahoo.com,7890654321
+    - tai@gmail.com,701234569
+    - mai@iitgoa.ac.in,9087654321
+    - devansh@iitgoa.ac.in,8089654321
+- intent: ask_email
+  examples: |
+    - i want to share my email
+    - note my email
+    - remember me
+    - note down my email
+    - remember my email
+- intent: give_email
+  examples: |
+    - sakar2013108@iitgoa.ac.in
+    - abc@iitgoa.ac.in
+    - aarav@iitgoa.ac.in
+    - aditya.20042@iitgoa.ac.in
+    - abhishek.mathur.20063@iitgoa.ac.in
+    - rohith.g.20042@iitgoa.ac.in
+    - vishnutereja.movva.20031@iitgoa.ac.in
+    - ritik.tiwari.20042@iitgoa.ac.in
+    - nitya.santoshini.20033@iitgoa.ac.in
+    - dhanvin.prajapati.20042@iitgoa.ac.in
+- intent: repeat_mail
+  examples: |
+    - what is my mail
+    - tell me my email id
+    - do you know my email id
+    - repeat my email
+- intent: know_performance
+  examples: |
+    - know my performance
+    - where i stand
+    - what is my score
+    - tell my progress
+    - my progress report
+    - show my report
+- intent: OTP
+  examples: |
+    - 123456
+    - 234987
+    - 435267
+    - 768548
+    - 435268
+    - 897635
+    - 039368
+- intent: list_quiz
+  examples: |
+    - test my knowledge on list
+    - test me list
+    - ask me question on list
+    - questions on list
+    - quiz
+    - quizes
+
+#intro page
+- intent: introduction_page
+  examples: |
+    - show me introduction page
+    - introduction page
+
+- intent: flow_control_topics
+  examples: |
+    - flow control topics
+    - flow control areas
+
+- intent: function_topics
+  examples: |
+    - function topics
+    - learning in functions
+    - teach me functions
+
+- intent: datatype_topics
+  examples: |
+    - flow control topics
+    - learning in Datatypes
+    - teach me datatypes
+
+- intent: list_topics
+  examples: |
+    - List topics
+    - learning in List
+    - teach me List
+
+- intent: tuple_topics
+  examples: |
+    - tuple topics
+    - learning in tuple
+    - teach me tuple
+- intent: set_topics
+  examples: |
+    - set topics
+    - learning in set
+    - teach me set
+- intent: dictionary_topics
+  examples: |
+    - dictionary topics
+    - learning in dictionary
+    - teach me dictionary
+
+- intent: file_topics
+  examples: |
+    - file handling topics
+    - teach me file handling
+
+- intent: class_topics
+  examples: |
+    - class and object topics
+    - teach me class and object
+
+- intent: reference_books
+  examples: |
+    - what are the reference books
+    - books for this course
+
+- intent: Previous_Year_Questions
+  examples: |
+    - PYQ
+    - Previous Year Questions
+
+- intent: updates
+  examples: |
+    - what are the updates
+    - updates
+
+- intent: python_facts
+  examples: |
+    - tell me some fact about python
+    - python facts
+    - tell me which i dont know
+    - some quick facts
+    - tell me facts
+    - did you know
+    - tell me more
+    - more
+    - i want more
