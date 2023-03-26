@@ -1,0 +1,109 @@
+version: "2.0"
+
+
+nlu:
+- intent: datatypes/list
+  examples: |
+    - what is list
+    - tell me about list
+    - teach me list
+    - explain list
+
+- intent: datatypes/list_access
+  examples: |
+    - how to access list items
+    - access list items
+
+
+- intent: datatypes/list_negative_index
+  examples: |
+    - negative index in list
+    - indexing in list
+    - negative indexing
+
+- intent: datatypes/list_index_range
+  examples: |
+    - range of indexes
+    - index range in list
+
+- intent: datatypes/list_change
+  examples: |
+    - how to change list items
+    - change list items
+
+- intent: datatypes/list_change_insert_item
+  examples: |
+    - insert item in list
+    - insertion in list
+
+- intent: datatypes/list_add
+  examples: |
+    - how to add to list
+    - add to list
+    - addition to delete
+
+
+- intent: datatypes/list_add_extend
+  examples: |
+    - how to extend list
+    - extend list
+
+- intent: datatypes/list_remove
+  examples: |
+    - how to remove from list
+    - deletion from list
+    - remove element from list
+
+- intent: datatypes/list_remove_specified_index
+  examples: |
+    - remove specified index
+    - remove index from list
+
+- intent: datatypes/list_remove_clear_list
+  examples: |
+    - clear the list
+    - delete all elements of list
+
+- intent: datatypes/tuples
+  examples: |
+    - what is tuple
+    - tell me about tuple
+    - explain me tuple
+    - teach me tuple
+
+- intent: datatypes/access_tuples
+  examples: |
+    - access tuple
+    - how to acceess elemements of tuple
+
+- intent: datatypes/access_tuples_negative_indexing
+  examples: |
+    - negative indexing in tuple
+    - acceess elemements from last of tuple
+
+
+- intent: datatypes/access_tuples_index_range
+  examples: |
+    - Range of Indexes in tuple
+    - Range in tuple
+
+- intent: datatypes/update_tuples
+  examples: |
+    - update tuple
+    - how to update elememts of tuples
+
+- intent: datatypes/update_tuples_add_items
+  examples: |
+    - add item to tuple
+    - insert to tuple
+
+- intent: datatypes/update_tuples_remove_items
+  examples: |
+    - remove from tuple
+    - delete element from tuple
+
+- intent: datatypes/unpack_tuples
+  examples: |
+    - unpack tuple
+    - how to unpack tuple
+

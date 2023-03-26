@@ -1,0 +1,61 @@
+version: "2.0"
+
+
+nlu:
+- intent: flow_control/if_else
+  examples: |
+    - if else in python
+    - if statements in python
+    - if else syntax
+    - tell me about if else flow control
+    - tell me about if else
+    - what is if else in python
+
+- intent: flow_control/if_else_programs
+  examples: |
+    - show me if else program
+    - how to write if else program
+    - example of if else
+    - program of if else
+
+- intent: flow_control/for_loop
+  examples: |
+    - for loop in python
+    - for loop syntax
+    - tell me about for loop
+    - what is for loop in python
+    - teach me while loop
+
+- intent: flow_control/for_loop_programs
+  examples: |
+    - show me for loop examples
+    - how to write for loop
+    - examples of for loop
+    - program of for loop
+
+- intent: flow_control/while_loop
+  examples: |
+    - while loop in python
+    - while loop syntax
+    - tell me about while loop
+    - what is while loop in python
+    - teach me while loop
+
+- intent: flow_control/while_loop_programs
+  examples: |
+    - show me while loop examples
+    - how to write while loop
+    - examples of while loop
+    - program of while loop
+
+- intent: flow_control/break_continue
+  examples: |
+    - what is break
+    - what is continue
+    - how to use continue
+    - how to use break
+    - continue statement
+    - break statement
+    - continue in python
+    - break in continue
+

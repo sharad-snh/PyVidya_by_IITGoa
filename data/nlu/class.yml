@@ -1,0 +1,46 @@
+version: "2.0"
+
+
+nlu:
+
+- intent: class/create_class_object
+  examples: |
+    - how to create class and object[]{"entity": "class", "value": "class"}
+    - how to create class and object
+    - class and object
+
+- intent: class/class_object_program
+  examples: |
+    - what is class and object program
+    - show me class and object program
+    - hey i want to see some class object programs
+    - class programs
+    - explain me class object program
+    - what is init
+    - what is self parameter
+    - what is self
+
+- intent: class/class_object_program_more
+  examples: |
+    - more class and object programs
+    - more class programs
+    - more programs on class and object
+
+- intent: class/class_object_self
+  examples: |
+    - what is self keyword
+    - self keyword
+    - what is self
+
+- intent: class/class_object_init
+  examples: |
+    - what is init keyword
+    - init keyword
+    - what is init
+
+- intent: class/class_object_delete
+  examples: |
+    - how to delete object
+    - how to delete object properties
+    - object deletion
+    - delete an object

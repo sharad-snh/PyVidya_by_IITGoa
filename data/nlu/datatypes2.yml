@@ -1,0 +1,53 @@
+version: "2.0"
+
+
+nlu:
+- intent: datatypes2/set
+  examples: |
+    - what is sets
+    - teach me sets
+    - explain sets
+    - tell me about sets
+
+- intent: datatypes2/set_access
+  examples: |
+    - how to access sets
+    - access set elements
+
+- intent: datatypes2/set_add
+  examples: |
+    - how to add elements to set
+    - elements addition in set
+
+- intent: datatypes2/set_remove
+  examples: |
+    - how to remove element from set
+    - deletion of elements from sets
+
+- intent: datatypes2/dictionary
+  examples: |
+    - what is dictionary
+    - teach me dictionary
+    - explain dictionary
+    - tell me about dictionary
+
+- intent: datatypes2/dictionary_access
+  examples: |
+    - how to access dictionary
+    - access dictionary elements
+
+- intent: datatypes2/dictionary_change
+  examples: |
+    - how to change element from dictionary
+    - change of elements from dictionary
+
+
+- intent: datatypes2/dictionary_add
+  examples: |
+    - how to add elements to dictionary
+    - elements addition in dictionary
+
+- intent: datatypes2/dictionary_remove
+  examples: |
+    - how to remove element from dictionary
+    - deletion of elements from dictionary

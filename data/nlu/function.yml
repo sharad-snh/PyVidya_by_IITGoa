@@ -1,0 +1,79 @@
+version: "2.0"
+
+
+nlu:
+- intent: function/func_intro_python
+  examples: |
+    - what is a function
+    - why function is important
+    - how function is helpful
+    - why we need function
+    - why it is better to implement code with the function
+    - functions in python
+    - python function
+    - tell me about functions in python
+
+- intent: function/func_dec_python
+  examples: |
+    - how to define a function
+    - function defination
+    - function defination in python
+    - python defination
+    - how to define a simple function
+    - function declaration example in python.
+    - how to define a function in python.
+    - how to define function
+
+- intent: function/func_args_python
+  examples: |
+    - tell me more about arguments
+    - more on arguments
+    - unknown number of arguments
+    - how to handle unknown numbers of args
+    - more on args
+    - arguments
+    - function arguments
+
+- intent: function/func_default_param_python
+  examples: |
+    - what is default paramameter in functions in python
+    - default parameter in python
+    - how to set deafult parameter
+
+- intent: function/func_list_param_python
+  examples: |
+    - list as parameter in function in python
+    - list as parameter
+    - how to pass list as parameter in a function
+    - passing list as parameter to a function
+    - how to pass set of similar items in to a function
+
+- intent: function/func_pass_return_python
+  examples: |
+    - tell me about return keyword
+    - how to return something from function in python
+    - how to return back to callie function
+    - tell me about pass keyword
+    - return keyword in python
+    - pass keyword in python
+
+- intent: function/func_rec_python
+  examples: |
+    - what is a recursion
+    - recursion in python
+    - function recursion defination
+    - recursion define
+    - defining function recursion
+    - recusrion example
+    - how to implement a function recursion in python
+    - recursion function syntax
+    - what is recursion
+    - how to write a recursion
+    - function recursion
+    - give a example of a recursion
+
+- intent: function/func_rec_python_programs
+  examples: |
+    - more function recursion programs
+    - more recursion programs
+    - more recursion

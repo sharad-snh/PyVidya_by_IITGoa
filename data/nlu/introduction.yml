@@ -1,0 +1,66 @@
+version: "2.0"
+
+
+nlu:
+
+- intent: introduction/python_intro
+  examples: |
+    - what is python
+    - python
+    - python language
+    - python introduction
+
+- intent: introduction/why_python
+  examples: |
+    - why python
+    - why to learn python
+
+- intent: introduction/what_python_do
+  examples: |
+    - what python can do
+    - what are usage of python
+
+
+- intent: introduction/python_installation
+  examples: |
+    - how to install python
+    - getting started with python
+    - tell me how to install python
+    - install python
+
+- intent: introduction/python_variables
+  examples: |
+    - what are python variables
+    - python varialble
+    - variables
+    - variables in python
+
+- intent: introduction/python_strings
+  examples: |
+    - what us string in python
+    - python strings
+    - strings
+    - strings in python
+
+- intent: introduction/python_operators
+  examples: |
+    - what are operators in python
+    - operators in python
+    - operators
+
+- intent: introduction/indentation
+  examples: |
+    - IndentationError: expected an indented block
+    - expected an indented block
+    - IndentationError
+    - indentation error
+- intent: introduction/python_not_recognized
+  examples: |
+    - Err: Python is not recognized as an internal or external command
+    - Python is not recognized as an internal or external command
+    - not recognized as an internal or external command
+- intent: introduction/setup_failed
+  examples: |
+    - err : setup failed
+    - setup failed unspecified error
+    - unspecified erro

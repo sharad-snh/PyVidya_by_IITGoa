@@ -1,0 +1,93 @@
+version: "2.0"
+
+
+nlu:
+- intent: file_handling/file_handling1
+  examples: |
+    - what is file handling in python
+    - tell me about file handling in python
+    - file handling in python
+    - i want to know about file handling in python
+
+- intent: file_handling/file_open
+  examples: |
+    - how to create file in python
+    - how to open file in python
+    - tell me about file opening in python
+    - file opening modes in python
+    - file opening in python
+    - i want to know about file opening in python
+
+- intent: file_handling/file_open_syntax
+  examples: |
+    - syntax of file open
+    - tell me about syntax of file open in python
+    - i want to know about syntax of file open
+
+- intent: file_handling/file_read
+  examples: |
+    - how to read file in python
+    - how to read file
+    - teach me file reading
+    - tell me about file reading in python
+    - file reading in python
+    - file reading modes in python
+    - i want to know about file reading in python
+
+
+- intent: file_handling/file_read_programs
+  examples: |
+    - more file reading programs
+    - more reading programs
+    - more porgrams on file reading
+    - show me file reading program
+    - give me file reading program
+    - tell me about file reading program
+    - file reading program in python
+
+- intent: file_handling/file_write
+  examples: |
+    - how to write to file in python
+    - tell me about file writing in python
+    - file writing in python
+    - i want to know about file writing in python
+    - file writing modes in python
+    - how to write to file
+
+- intent: file_handling/file_write_program
+  examples: |
+    - show me file writing program
+    - give me file writing program
+    - tell me about file writing program
+    - file writing program in python
+
+- intent: file_handling/file_write_program_append
+  examples: |
+    - how to append to file
+    - file append programs
+
+- intent: file_handling/audio_file_read_program
+  examples: |
+    - how to read audio file
+    - tell me about audio files
+
+- intent: file_handling/image_file_read_program
+  examples: |
+    - how to read image file
+    - tell me about image files
+
+- intent: file_handling/file_delete
+  examples: |
+    - how to delete to file in python
+    - tell me about file deleting in python
+    - file deleting in python
+    - i want to know about file deleting in python
+
+- intent: file_handling/exception_handling
+  examples: |
+    - what is exception handling
+    - show me exception handling program
+    - what is try, catch, finally
+    - explain me exception handling
+    - teach me exception handling
+
